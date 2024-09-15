@@ -87,3 +87,25 @@ Amazon, Netflix y Spotify aplican microservicios para realizar escalabilidad y f
 
 Referencia:
 Newman, S. (2021). Building Microservices: Designing Fine-grained Systems (2nd ed.). O'Reilly Media. 
+
+5. Arquitectura Cliente-Servidor (Client-Server Architecture)
+
+Descripción: El patrón del cliente-servidor consiste en la separación de funciones en clientes que demandan servicios de un servidor que satisface esa demanda. El cliente representa la interfaz que usa el usuario y el servidor es el programa que gestiona recursos y datos. 
+
+Características: 
+* El servidor es el que almacena, procesa y gestiona los datos. 
+* El cliente es el que consume los servicios que proporciona el servidor. 
+
+Ventajas: 
+* El control de los recursos y los datos está centralizando. 
+* Los clientes son más ligeros porque el servidor es el que ejecuta las operaciones más complejas. 
+
+Desventajas: 
+* El servidor puede convertirse en un único punto de fallo. 
+* El servidor puede tener problemas de escalabilidad si no está bien dimensionado. 
+
+Ejemplo: 
+Un sistema web en el cual el navegador (cliente) establece comunicación con un servidor que provee los datos y recursos requeridos. 
+
+Referencia: 
+Tanenbaum, A. S., & Van Steen, M. (2017). Distributed Systems: Principles and Paradigms (2nd ed.). Pearson. 
