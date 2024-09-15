@@ -41,4 +41,27 @@ Desventajas:
 Ejemplo:
 Un sistema de gestión empresarial en el que se distribuyen las responsabilidades por capas de presentación, lógica de negocio y acceso a datos.
 
-Referencias: Bass, L., Clements, P., & Kazman, R. (2012). Software Architecture in Practice (3rd ed.). Addison-Wesley.
+Referencia: 
+Bass, L., Clements, P., & Kazman, R. (2012). Software Architecture in Practice (3rd ed.). Addison-Wesley.
+
+3. Arquitectura de Tubería y Filtros (Pipes and Filters Architecture)
+
+Descripción: El patrón en cuestión propone que los datos se desplacen a través de una serie de filtros interconectados por tubos, donde cada filtro de este modelo aplica su propia transformación a los datos para pasarlos al siguiente filtro de la cadena (tubería). Este patrón se encuentra con frecuencia en sistemas de procesamiento de datos.
+
+Características:
+* Los datos se desplazan en secuencia a través de componentes múltiples.
+* Cada componente (filtro) es independiente y aplica su propia transformación.
+
+Ventajas:
+* Ofrece alta modularidad, ya que permite la reutilización auténtica y el cambio de orden de los filtros.
+* Ofrece buena escalabilidad, ya que permite la creación de filtros sin complicaciones.
+
+Desventajas:
+* El rendimiento puede verse afectado si se añaden demasiados filtros.
+* La gestión de errores puede complicarse.
+
+Ejemplo:
+Sistemas de procesamiento de datos como compilers o sistemas de procesamiento de flujo de datos.
+
+Referencia: 
+Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., & Stal, M. (1996). Pattern-Oriented Software Architecture, Volume 1: A System of Patterns. John Wiley & Sons. 
