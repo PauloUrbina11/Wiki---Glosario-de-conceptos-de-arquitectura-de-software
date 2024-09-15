@@ -65,3 +65,25 @@ Sistemas de procesamiento de datos como compilers o sistemas de procesamiento de
 
 Referencia: 
 Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., & Stal, M. (1996). Pattern-Oriented Software Architecture, Volume 1: A System of Patterns. John Wiley & Sons. 
+
+4. Arquitectura de Microservicios (Microservices Architecture)
+
+Descripción: La arquitectura de microservicios divide una aplicación en un conjunto de pequeños servicios que no dependen unos de otros, los cuales se comunican entre sí a través de APIs. Cada microservicio es autónomo y proporciona soporte a una función.
+
+Características:
+* Cada servicio se desarrolla y despliega de manera independiente, sin condicionar a los demás.
+* Los microservicios pueden aplicarse utilizando diferentes tecnologías y bases de datos.
+
+Ventajas:
+* Escalabilidad independiente de cada microservicio.
+* Flexibilidad de usar diferentes tecnologías para diferentes servicios.
+
+Desventajas:
+* Mayor complejidad en el manejo y coordinación de los servicios.
+* Aumento de la sobrecarga de comunicación entre los servicios.
+
+Ejemplo:
+Amazon, Netflix y Spotify aplican microservicios para realizar escalabilidad y flexibilidad a sus plataformas.
+
+Referencia:
+Newman, S. (2021). Building Microservices: Designing Fine-grained Systems (2nd ed.). O'Reilly Media. 
